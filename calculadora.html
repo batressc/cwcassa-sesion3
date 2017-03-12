@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/calculadora.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body onload="initializeComponents()">
+    <label for="historia">Historial</label>
+    <br>
+    <input type="text" id="historial" value="" class="operaciones" readonly>
+    <br>
+    <br>
+    <label for="resultado">Resultado</label>
+    <br>
+    <input type="text" id="resultado" value="" class="results" readonly>
+    <br>
+    <input type="button" value="7">
+    <input type="button" value="8">
+    <input type="button" value="9">
+    <input type="button" value="/" class="operator">
+    <br>
+    <input type="button" value="4">
+    <input type="button" value="5">
+    <input type="button" value="6">
+    <input type="button" value="*" class="operator">
+    <br>
+    <input type="button" value="1">
+    <input type="button" value="2">
+    <input type="button" value="3">
+    <input type="button" value="+" class="operator">
+    <br>
+    <input type="button" value="&nbsp;" readonly>
+    <input type="button" value="0">
+    <input type="button" value="&nbsp;" readonly>
+    <input type="button" value="=" class="operator">
+</body>
+</html>

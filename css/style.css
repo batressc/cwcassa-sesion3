@@ -1,0 +1,35 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+}
+
+input {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+}
+
+input[type="button"] {
+    width: 60px;
+    height: 60px;
+}
+
+.operator[type="button"] {
+    background-color: black;
+    color: white;
+}
+
+.results {
+    border: 2px solid red;
+    background-color: lawngreen;
+    width: 45vw;
+    height: 60px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.operaciones {
+    border: 2px solid black;
+    width: 45vw;
+    height: 45px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
